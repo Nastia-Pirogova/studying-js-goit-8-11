@@ -1,0 +1,28 @@
+{
+  "name": "studying-js-goit-8-11",
+  "version": "1.0.0",
+  "description": "npm test",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nastia-Pirogova/studying-js-goit-8-11.git"
+  },
+  "author": "Anastasiia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nastia-Pirogova/studying-js-goit-8-11/issues"
+  },
+  "homepage": "https://github.com/Nastia-Pirogova/studying-js-goit-8-11#readme",
+  "dependencies": {
+    "@parcel/babel-preset-env": "^2.8.3",
+    "joi": "^17.9.2",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
