@@ -1,28 +1,30 @@
 {
-  "name": "studying-js-goit-8-11",
+  "name": "lesson-15",
   "version": "1.0.0",
-  "description": "npm test",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "prod": "webpack --mode=production",
+    "build": "webpack --mode=development",
+    "dev": "npm run build && webpack serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nastia-Pirogova/studying-js-goit-8-11.git"
-  },
-  "author": "Anastasiia",
+  "keywords": [],
+  "author": "Alexey Simak <aleksim.dev@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Nastia-Pirogova/studying-js-goit-8-11/issues"
-  },
-  "homepage": "https://github.com/Nastia-Pirogova/studying-js-goit-8-11#readme",
-  "dependencies": {
-    "@parcel/babel-preset-env": "^2.8.3",
-    "joi": "^17.9.2",
-    "shortid": "^2.2.16"
-  },
   "devDependencies": {
-    "parcel": "^2.8.3"
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "image-webpack-loader": "^8.1.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
   }
 }

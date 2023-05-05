@@ -1,34 +1,12 @@
-import validatePassword from './js/validate-password';
-import { addUser } from './js/api-service';
+import "./css/main.css";
+import "./css/modal.css";
+// import "./scss/style.scss";
+import "./images/img1.jpg";
+import { sum, mult } from "./functions.js";
 
-//import onOpenModal from './js/on-open-modal';
+console.log("Hello world!");
+console.log(sum(6, 4));
+console.log(mult(5, 8));
 
-// onOpenModal.addEventListener('click', onOpenModal);
-
- addUser('mango');
-
-
-console.log(validatePassword('qweqweqeqweqweqweqw'));
-
-
-import {
-  fetchAllUsers,
-  fetchUserById,
-  updateUserById,
-  x as value,
-  y as name,
-} from './js/api-service';
-import * as apiService from './js/api-service';
-
-console.log(validatePassword);
-console.log(validatePassword('qweqweqwe'));
-
-console.log(fetchAllUsers);
-console.log(fetchUserById);
-console.log(updateUserById);
-console.log(value);
-console.log(name);
-
-console.log(apiService);
-
- console.log("2222")
+//https://www.godaddy.com/uk-ua
+//https://www.ukraine.com.ua/?d=c&s=1&m=e&k=ukraine%20com%20ua&c=259328155330&pos=&gclid=Cj0KCQjwr82iBhCuARIsAO0EAZwQFtob8efrw652jUkXzdIISJ512-h1mlx-EiAz3cnQ5n49Z84rRYwaApZEEALw_wcB
